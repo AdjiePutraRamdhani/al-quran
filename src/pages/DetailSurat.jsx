@@ -56,7 +56,7 @@ const DetailSurat = () => {
                     <span>
                       <AudioPlayer
                         key={ayat.nomorAyat}
-                        url={ayat.audio["05"]}
+                        url={ayat.audio["01"]}
                         currentAudio={currentAudio}
                         setCurrentAudio={setCurrentAudio}
                       ></AudioPlayer>
